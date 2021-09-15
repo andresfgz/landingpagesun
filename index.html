@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <header class="background-image-orange bg-cover bg-center w-full py-6 px-4">
+      <div class="flex justify-between">
+        <div>
+          <img class="w-24" src="images/logo.svg" alt="sunny side logo" />
+        </div>
+
+        <div>
+          &equiv;
+          <ul class="text-black hidden">
+            <li>Services</li>
+            <li>Projects</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        class="
+          flex flex-col
+          items-center
+          h-full
+          text-4xl
+          font-bold
+          uppercase
+          main-title
+          text-white
+        "
+      >
+        <div class="flex flex-col items-center">
+          <p class="pb-2 pt-28">We are</p>
+          <p>creatives</p>
+        </div>
+
+        <div>
+          <img
+            class="w-10 h-28 mt-16 text-white"
+            src="images/icon-arrow-down.svg"
+            alt="Icon arrow Down"
+          />
+        </div>
+      </div>
+    </header>
+    <!-- Transform your brand section  -->
+
+    <section>
+      <div>
+        <div>
+          <img
+            class=""
+            src="images/mobile/image-transform.jpg"
+            alt="egg photo"
+          />
+        </div>
+
+        <div class="text-center trans-brand-section">
+          <h1 class="text-4xl font-bold pt-14">Transform your</h1>
+          <h2 class="text-4xl font-bold pb-8">brand</h2>
+          <div class="trans-brand-section-p flex flex-col items-center">
+            <p class="text-gray-400">
+              We are a full-service creative agency specializing in helping
+              brands grow fast. Engage your clients through compelling visuals
+              that do most of the marketing for you.
+            </p>
+            <a
+              class="
+                trans-brand-section-a
+                text-lg
+                mt-5
+                uppercase
+                cursor-pointer
+                pb-14
+              "
+            >
+              Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <img
+            class=""
+            src="images/mobile/image-stand-out.jpg"
+            alt="stand out photo"
+          />
+        </div>
+
+        <div class="text-center trans-brand-section">
+          <h1 class="text-4xl font-bold pt-14">Stand out to the</h1>
+          <h2 class="text-4xl font-bold pb-8">right audience</h2>
+          <div class="trans-brand-section-p flex flex-col items-center">
+            <p class="text-gray-400 stand-out-p">
+              Using a collaborative formula of designers, researchers,
+              photographers, videographers, and copywriters, we’ll build and
+              extend your brand in digital places.
+            </p>
+            <a
+              class="
+                stand-out-section-a
+                text-lg
+                mt-5
+                uppercase
+                cursor-pointer
+                pb-14
+              "
+            >
+              Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Graphic Design And Photo section  -->
+    <section class="flex justify-between flex-col items-center text-center">
+      <div
+        class="
+          background-image-graphic
+          flex flex-col
+          justify-end
+          bg-cover bg-center
+          w-full
+          pb-20
+        "
+      >
+        <h3 class="text-3xl pb-7 font-bold">Graphic design</h3>
+        <p class="font-semibold px-3">
+          Great design makes you memorable. We deliver artwork that underscores
+          your brand message and captures potential clients’ attention.
+        </p>
+      </div>
+
+      <div
+        class="
+          background-image-photo
+          flex flex-col
+          justify-end
+          bg-cover bg-center
+          w-full
+          pb-16
+        "
+      >
+        <h3 class="text-3xl pb-7 font-bold">Photography</h3>
+        <p class="font-semibold px-3">
+          Increase your credibility by getting the most stunning, high-quality
+          photos that improve your business image.
+        </p>
+      </div>
+    </section>
+
+    <!-- client testimonials section  -->
+    <section>
+      <div class="pt-16">
+        <h4 class="text-xl text-center uppercase testimonials-h4">
+          Client testimonials
+        </h4>
+      </div>
+
+      <div class="flex flex-col items-center mt-14">
+        <img
+          class="rounded-full w-20 mb-6"
+          src="images/image-emily.jpg"
+          alt="emily image"
+        />
+        <p
+          class="
+            text-center text-lg
+            px-5
+            leading-8
+            font-semibold
+            description-card-p
+          "
+        >
+          We put our trust in Sunnyside and they delivered, making sure our
+          needs were met and deadlines were always hit.
+        </p>
+
+        <p class="font-bold text-xl mt-6 name-title">Emily R.</p>
+        <span class="pt-2 text-sm work-title pb-5"> Marketing Director </span>
+      </div>
+
+      <div class="flex flex-col items-center mt-14">
+        <img
+          class="rounded-full w-20 mb-6"
+          src="images/image-thomas.jpg"
+          alt="thomas image"
+        />
+        <p
+          class="
+            text-center text-lg
+            px-6
+            leading-8
+            font-semibold
+            description-card-p
+          "
+        >
+          Sunnyside’s enthusiasm coupled with their keen interest in our brand’s
+          success made it a satisfying and enjoyable experience.
+        </p>
+
+        <p class="font-bold text-xl mt-6 name-title">Thomas S.</p>
+        <span class="pt-2 text-sm work-title pb-5">
+          Chief Operating Officer
+        </span>
+      </div>
+
+      <div class="flex flex-col items-center mt-14">
+        <img
+          class="rounded-full w-20 mb-6"
+          src="images/image-jennie.jpg"
+          alt="jennie image"
+        />
+        <p
+          class="
+            text-center text-lg
+            px-5
+            leading-8
+            font-semibold
+            description-card-p
+          "
+        >
+          Incredible end result! Our sales increased over 400% when we worked
+          with Sunnyside. Highly recommended!
+        </p>
+
+        <p class="font-bold text-xl mt-6 name-title">Jennie F.</p>
+        <span class="pt-2 text-sm work-title pb-5"> Business Owner </span>
+      </div>
+    </section>
+
+    <!-- galery  section  -->
+    <section class="mt-16">
+      <div class="flex">
+        <img
+          class="w-2/4"
+          src="images/mobile/image-gallery-milkbottles.jpg"
+          alt="Milk bottles image"
+        />
+        <img
+          class="w-2/4"
+          src="images/mobile/image-gallery-orange.jpg"
+          alt="Orange image"
+        />
+      </div>
+
+      <div class="flex">
+        <img
+          class="w-2/4"
+          src="images/mobile/image-gallery-cone.jpg"
+          alt="Cone image"
+        />
+        <img
+          class="w-2/4"
+          src="images/mobile/image-gallery-sugar-cubes.jpg"
+          alt="Sugar image"
+        />
+      </div>
+    </section>
+
+    <!-- footer section  -->
+    <footer>
+      <div class="flex justify-center pt-12">
+        <img src="images/logo.svg" alt="sunnyside logo" />
+      </div>
+        <div>
+          <ul class="flex justify-around px-4 pt-7">
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+          </ul>
+        </div>
+
+        <div class="flex py-16 justify-center">
+          <img
+            class="w-30 px-4"
+            src="images/icon-facebook.svg"
+            alt="facebook icon"
+          />
+          <img
+            class="w-30 px-4"
+            src="images/icon-instagram.svg"
+            alt="instagram icon"
+          />
+          <img class="w-30 px-4" src="images/icon-twitter.svg" alt="twitter icon" />
+          <img
+            class="w-30 px-4"
+            src="images/icon-pinterest.svg"
+            alt="pinterest icon"
+          />
+        
+      </div>
+    </footer>
+
+    <!--
+
+  
+
+
+  
+  
+
+  
+  
+  
+  Contact -->
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </body>
+</html>

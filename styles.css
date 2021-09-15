@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+/*font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif; */
+
+:root {
+  /* Primary */
+  --Soft-red: hsl(7, 99%, 70%);
+  --Yellow: hsl(51, 100%, 49%);
+  --Dark-desaturated-cyan: hsl(167, 40%, 24%);
+  --Dark-blue: hsl(198, 62%, 26%);
+  --Dark-moderate-cyan: hsl(168, 34%, 41%);
+
+  /* Secundary */
+
+  --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+  --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --Dark-grayish-blue: hsl(232, 10%, 55%);
+  --Grayish-blue: hsl(210, 4%, 67%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+}
+.background-image-orange {
+  background-image: url(images/mobile/image-header.jpg);
+  height: 70vh;
+}
+.main-title {
+  font-family: "Fraunces", serif;
+  letter-spacing: 10px;
+}
+
+.trans-brand-section h1,
+h2 {
+  font-family: "Fraunces", serif;
+}
+
+.trans-brand-section-p p {
+  width: 344;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.trans-brand-section-a,
+.stand-out-section-a {
+  font-family: "Fraunces", serif;
+}
+
+.trans-brand-section-a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: var(--Yellow);
+}
+
+.stand-out-p {
+  width: 21.25rem;
+}
+
+.stand-out-section-a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: var(--Soft-red);
+}
+
+.background-image-graphic {
+  background-image: url(images/mobile/image-graphic-design.jpg);
+  height: 70vh;
+}
+
+.background-image-photo {
+  background-image: url(images/mobile/image-photography.jpg);
+  height: 70vh;
+}
+
+.background-image-graphic h3 {
+  color: var(--Dark-desaturated-cyan);
+  font-family: "Fraunces", serif;
+}
+
+.background-image-graphic p {
+  color: var(--Dark-desaturated-cyan);
+}
+
+.background-image-photo h3 {
+  color: var(--Dark-desaturated-cyan);
+  font-family: "Fraunces", serif;
+}
+
+.background-image-photo p {
+  color: var(--Dark-desaturated-cyan);
+}
+
+.testimonials-h4 {
+  font-family: "Fraunces", serif;
+  letter-spacing: 4px;
+  color: var(--Grayish-blue);
+}
+
+.description-card-p {
+  color: var(--Dark-grayish-blue);
+}
+.name-title {
+  font-family: "Fraunces", serif;
+}
+.work-title {
+  color: var(--Grayish-blue);
+}
+footer {
+    background-color: hsl(167, 33%, 62%) ;
+}
+
+footer li {
+    color: var(--Dark-moderate-cyan) ;
+    
+}
