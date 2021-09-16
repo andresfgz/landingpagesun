@@ -32,6 +32,32 @@ body {
   letter-spacing: 10px;
 }
 
+.header-menu {
+  color: var(--Dark-grayish-blue);
+}
+
+.contact-section {
+  font-family: "Fraunces", serif;
+  color: black;
+  background-color: var(--Yellow);
+}
+li:hover{
+  color:hsl(232, 8%, 41%); ;
+}
+
+.top::after {
+  content: '';
+  height: 56px;
+  width: 41px;
+  position: absolute;
+  background-color: var(--White);
+  top: -28px;
+  border-top: white;
+  border-left: white;
+  transform: rotate(
+232deg);
+}
+
 .trans-brand-section h1,
 h2 {
   font-family: "Fraunces", serif;
